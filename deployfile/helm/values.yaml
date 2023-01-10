@@ -10,7 +10,7 @@ image:
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.3.8"
-labels: vue-pod
+labels: infra-label
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
