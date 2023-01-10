@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 3
-namespace: "infra"
+namespace: "default"
 image:
         #repository: lab.harbor.com/library/vue
   repository: age68573/tekton_test
