@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment      
 metadata:
-  name: vue-deployment
+  name: vue-deployment-infra
   namespace: {{.Values.namespace}}
 spec: 
   replicas: 3
